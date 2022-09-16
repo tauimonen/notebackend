@@ -1,0 +1,30 @@
+{
+  "name": "notebackend",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tauimonen/notebackend.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "tauimonen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tauimonen/notebackend/issues"
+  },
+  "homepage": "https://github.com/tauimonen/notebackend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
